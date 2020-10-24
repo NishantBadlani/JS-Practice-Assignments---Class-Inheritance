@@ -1,3 +1,9 @@
-// declare class
+import React from "react";
 
-// export class using module.exports
+module.exports = class Shape extends React.Component {
+  color = "red";
+
+  drawShape() {}
+
+  calculateArea() {}
+};
